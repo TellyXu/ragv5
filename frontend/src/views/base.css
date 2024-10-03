@@ -1,0 +1,26 @@
+.message-container {
+  border-radius: 3px;
+  margin-bottom: 25px;
+  height: 600px;
+  box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.3);
+  background-color: #ffffff;
+  /* Dark grey background */
+}
+
+.timestamp {
+  color: gray;
+}
+
+.log-info {
+  color: black;
+}
+
+.container-footer {
+  position: absolute;
+}
+
+@media screen and (orientation: portrait) and (max-width: 720px) {
+  .container-footer {
+    position: relative;
+  }
+}
